@@ -1,5 +1,8 @@
 package com.therxmv.practice
 
+import com.therxmv.practice.data.PostService
+import com.therxmv.practice.model.PostEntity
+import com.therxmv.practice.presentation.PostController
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 import org.mockito.Mockito.mock
@@ -120,7 +123,7 @@ class PostControllerTest {
 
         val result = systemUnderTest.remove(id)
 
-        assertEquals(systemUnderTest.remove(id), mockNotFoundEntity(id))
+        assertEquals(result, mockNotFoundEntity(id))
     }
 
     @Test

@@ -1,5 +1,7 @@
-package com.therxmv.practice
+package com.therxmv.practice.presentation
 
+import com.therxmv.practice.data.PostService
+import com.therxmv.practice.model.PostEntity
 import org.slf4j.LoggerFactory
 import org.springframework.http.HttpStatus.INTERNAL_SERVER_ERROR
 import org.springframework.http.HttpStatus.NOT_FOUND

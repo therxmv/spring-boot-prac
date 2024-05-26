@@ -1,5 +1,8 @@
 package com.therxmv.practice
 
+import com.therxmv.practice.data.PostRepository
+import com.therxmv.practice.data.PostService
+import com.therxmv.practice.model.PostEntity
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 import org.mockito.Mockito.mock
